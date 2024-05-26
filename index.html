@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Rock,Paper,Scissors Game</title>
+</head>
+
+<body>
+  <section class="container-wrapper">
+    <div class="container">
+      <div class="top-header">
+        <div class="copyright-year">
+          <p class="copyright-year">
+            &copy;  2024 <a href=" Faith Mathenge">Faith Mathenge</a>
+          </p>
+        </div>
+        <div class="game-scores">
+          <div class="computer-scores">
+            <p class="computer-scores">computer</p>
+          </div>
+          <span class="computer-scores" id="computer-score">0</span>
+          <span class="player-scores" id="player-score">0</span>
+          <div class="player-scores">
+            <p class="player-scores" id="playerScore">player</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="computerplays">
+        <p class="computer-plays">Computer</p>
+        <p class="computeremoji  emoji" id="computer-display">✌️</pcl>
+      </div>
+      <div class="score-results">
+        <h1 class="score-results" id="results-comment-display">CURRENTLY DRAW</h1>
+      </div>
+      <div class="player">
+        <p class="player-plays">Player</p>
+        <p class="playeremoji  emoji" id="player-display">✌️</p>
+      </div>
+      <div class="button-choices">
+        <button class="rockbutton hovered" id="rock-btn">
+          <div class="rockemoji">
+            <p class="rockemoji  emoji">✊</p>
+          </div>
+          <div class="rock-text">
+            <p class="rock-text">Rock</p>
+          </div>
+        </button>
+
+
+        <button class="paperbutton hovered" id="paper-btn">
+          <div class="paperemoji">
+            <p class="paperemoji emoji">✋</p>
+          </div>
+          <div class="paper-text">
+            <p class="paper-text">Paper</p>
+          </div>
+        </button>
+
+
+        <button class="scissorsbutton hovered" id="scissors-btn">
+          <div class="scissorsemoji">
+            <p class="scissorsemoji  emoji ">✌️</p>
+          </div>
+          <div class="scissorstext">
+            <p class="scissorstext">Scissors</p>
+          </div>
+        </button>
+
+      </div>
+  </section>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
